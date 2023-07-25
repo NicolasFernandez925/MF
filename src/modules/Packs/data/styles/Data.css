@@ -1,0 +1,40 @@
+.packs-card--grid {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.packs-card .packs-card__daily-consumption--ml {
+  margin-left: 20px;
+}
+
+.packs-card__daily-consumption .packs-card__data-volume {
+  margin-bottom: 10px;
+}
+
+.packs-card__daily-consumption p {
+  margin: 0px;
+}
+
+.packs-card__daily-consumption .packs-card__data-volume__title,
+.packs-card__daily-consumption .packs-card__last-reset--title {
+  padding: 10px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: var(--color-primary-white);
+  border-right: 1px solid var(--color-primary-gray-3);
+  border-top: 1px solid var(--color-primary-gray-3);
+  border-left: 1px solid var(--color-primary-gray-3);
+}
+
+.packs-card__daily-consumption .packs-card__data-volume__value,
+.packs-card__daily-consumption .packs-card__last-reset--value {
+  padding: 10px;
+  height: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: var(--color-primary-gray-5);
+  border: 1px solid var(--color-primary-gray-3);
+}
